@@ -11,7 +11,7 @@ $csrf = \xeki\module_manager::import_module('csrf');
 In pages add 
 ```
 <form>
-    {{csrf}}
+    {{csrf|raw}}
     <input>
     <button>Send</button>
 </form>
